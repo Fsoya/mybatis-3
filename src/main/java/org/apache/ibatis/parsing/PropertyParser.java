@@ -48,6 +48,7 @@ public class PropertyParser {
 
   private PropertyParser() {
     // Prevent Instantiation
+    // 静态方法工具类禁止构造PropertyParser对象
   }
 
   public static String parse(String string, Properties variables) {
