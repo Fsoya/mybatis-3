@@ -77,6 +77,7 @@ public class BlockingCache implements Cache {
   @Override
   public Object removeObject(Object key) {
     // despite of its name, this method is called only to release locks
+    // 此处只做释放锁，不用管名字
     releaseLock(key);
     return null;
   }
