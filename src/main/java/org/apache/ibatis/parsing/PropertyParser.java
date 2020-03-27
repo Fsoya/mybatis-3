@@ -95,4 +95,10 @@ public class PropertyParser {
     }
   }
 
+  public static void main(String[] args) {
+    Properties properties = new Properties();
+    properties.put("userName","dada");
+    System.out.println(PropertyParser.parse("用户是${userName:root}",properties));
+  }
+
 }

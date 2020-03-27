@@ -67,11 +67,12 @@ public class XPathParser {
    */
   private boolean validation;
   /**
-   * XML 实体解析器
+   * XML实体解析器 DTD
+   * 对应实现 XMLMapperEntityResolver
    */
   private EntityResolver entityResolver;
   /**
-   * 变量 Properties 对象
+   * mybatis-config.xml中<properties> 标签定义的键位对集合
    */
   private Properties variables;
   /**
