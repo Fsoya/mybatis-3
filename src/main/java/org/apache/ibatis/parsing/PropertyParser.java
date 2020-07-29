@@ -98,6 +98,7 @@ public class PropertyParser {
   public static void main(String[] args) {
     Properties properties = new Properties();
     properties.put("userName","dada");
+    properties.put("org.apache.ibatis.parsing.PropertyParser.enable-default-value","true");
     System.out.println(PropertyParser.parse("用户是${userName:root}",properties));
   }
 

@@ -8,3 +8,7 @@
     
 * <font color=blue size=7 face="黑体" size=5>org.apache.ibatis.parsing.PropertyParser.default-value-separator</font>
     <br>默认值分隔符设置: 默认 **:**
+    
+XPath 语法  [https://www.w3school.com.cn/xpath/index.asp][XPath]
+
+[XPath]: https://www.w3school.com.cn/xpath/index.asp
